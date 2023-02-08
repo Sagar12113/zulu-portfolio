@@ -1,0 +1,93 @@
+.heading {
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+  .heading .heading h1 {
+    font-size: 4rem;
+    position: relative;
+    z-index: 1;
+    width: fit-content; }
+    .heading .heading h1 .heading h1 img {
+      width: 5rem;
+      position: absolute;
+      z-index: -1;
+      right: -2rem;
+      top: .7rem; }
+
+.journey {
+  width: 100%;
+  height: 60rem;
+  position: relative;
+  display: grid;
+  place-items: center; }
+  .journey .line {
+    position: absolute;
+    height: 100%;
+    width: 2px;
+    background: #929292;
+    left: 50%;
+    top: 12rem;
+    transform: translate(-50%, 0);
+    z-index: -1; }
+  .journey .journey_container {
+    width: 80%;
+    height: 100%; }
+    .journey .journey_container .jbox {
+      margin: 5rem  0 7rem 0 ;
+      width: 70%;
+      height: 15rem;
+      border: 3px solid #ff8946;
+      display: flex;
+      box-sizing: border-box;
+      position: relative;
+      background: #fff; }
+      .journey .journey_container .jbox .logo {
+        width: calc(30% + 1px);
+        height: calc(15rem - 4px);
+        background: #ff8946;
+        display: grid;
+        place-items: center; }
+        .journey .journey_container .jbox .logo .b_line {
+          width: 100%;
+          height: 96%;
+          background: none;
+          border: 4px solid #fff; }
+      .journey .journey_container .jbox .content {
+        width: 70%; }
+    .journey .journey_container .rigth {
+      margin-left: 29%; }
+      .journey .journey_container .rigth .dot_img {
+        position: absolute;
+        bottom: -1.1rem;
+        right: -4.7rem; }
+        .journey .journey_container .rigth .dot_img img {
+          width: 70%; }
+      .journey .journey_container .rigth .logo {
+        margin-left: -1px;
+        margin-top: -1px; }
+        .journey .journey_container .rigth .logo .b_line {
+          margin: 0 0 0 5px; }
+      .journey .journey_container .rigth .content h4 {
+        padding: 1rem 10% 0 1rem; }
+      .journey .journey_container .rigth .content p {
+        padding: 0 1rem; }
+    .journey .journey_container .left {
+      margin-left: 1%; }
+      .journey .journey_container .left .dot_img {
+        position: absolute;
+        bottom: -1.1rem;
+        left: -2.3rem; }
+        .journey .journey_container .left .dot_img img {
+          width: 70%; }
+      .journey .journey_container .left .logo {
+        margin-right: -1px;
+        margin-top: -1px; }
+        .journey .journey_container .left .logo .b_line {
+          margin: 0 5px 0 0; }
+      .journey .journey_container .left .content h4 {
+        padding: 1rem 10% 0 1rem; }
+      .journey .journey_container .left .content p {
+        padding: 0 1rem; }
+
+/*# sourceMappingURL=journey.css.map */
